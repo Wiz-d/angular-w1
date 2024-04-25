@@ -1,0 +1,10 @@
+<button (click)="ShowAboutMe()">Информация за мен</button>
+<div *ngIf="isAboutMeHidden">Казвам се Христиан Ангелов и съм на 24 години</div>
+<button (click)="Hobbies()">Хобита и интереси</button>
+<div *ngIf="isHobbiesHidden">Едно от моите хобита е да играя най-добрата игра някога създадена, дота 2 и да ставам по-добър в нея</div>
+<button (click)="FavChannel()">Линк към канал на любим content creator</button>
+<div *ngIf="isFavChannelHidden"><a href="https://www.youtube.com/@logic">Logic</a></div>
+<button (click)="AboutMyChannel()">Информация за моя канал</button>
+<div *ngIf="isAboutChannelHidden">Тука ще качвам клипове за дота</div>
+<button (click)="Money()">примерно остойностяване</button>
+<div *ngIf="isMoneyHidden">50$</div>
